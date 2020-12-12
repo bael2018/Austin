@@ -6,6 +6,7 @@
     <title>Austin Domain Hotel</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="https://media-cdn.tripadvisor.com/media/photo-s/11/57/77/e1/archer-n.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5c459b5eb0.js" crossorigin="anonymous"></script>
 </head>
 </head>
@@ -120,21 +121,21 @@
         </section>
 
         <section class="triple_block">
-            <div class="triple_inner1">
+            <div class="triple_inner1" data-aos="fade-right">
                 <a href="#"><img src="img/image1.jpg"></a>
                 <h1>ARCHER'S BLOG</h1>
                 <p>A must-see, taste and experience travel blog.</p>
                 <a class="sylka_main" href="#">LEARN MORE</a>
             </div>
 
-            <div class="triple_inner2">
+            <div class="triple_inner2" data-aos="fade-down">
                 <a href="#"><img src="img/image2.jpg"></a>
                 <h1>FAVORITE FINDS</h1>
                 <p>A thoughtfully curated list of the best local eating, drinking and doing.</p>
                 <a class="sylka_main" href="#">LEARN MORE</a>
             </div>
 
-            <div class="triple_inner3">
+            <div class="triple_inner3" data-aos="fade-left">
                 <a href="#"><img src="img/image3.jpg"></a>
                 <h1>LOCAL CALENDAR</h1>
                 <p>Austin-area events calendar.</p>
@@ -143,21 +144,21 @@
         </section>
 
         <section class="triple_block">
-            <div class="triple_inner1">
+            <div class="triple_inner1" data-aos="fade-up-right">
                 <a href="#"><img src="img/image4.jpg"></a>
                 <h1>MEETINGS + EVENTS</h1>
                 <p>Stunning venues underscore our special knack for hosting your next meeting or celebration.</p>
                 <a class="sylka_main" href="#">LEARN MORE</a>
             </div>
 
-            <div class="triple_inner2">
+            <div class="triple_inner2"  data-aos="flip-left">
                 <a href="#"><img src="img/image5.jpg"></a>
                 <h1>SECOND BAR + KITCHEN</h1>
                 <p>Enjoy a true farm-to-table experience at chef David Bull’s new American restaurant at Archer Hotel Austin.</p>
                 <a class="sylka_main" href="#">LEARN MORE</a>
             </div>
 
-            <div class="triple_inner3">
+            <div class="triple_inner3"  data-aos="fade-up-left">
                 <a href="#"><img src="img/image6.jpg"></a>
                 <h1>SIGN UP + SAVE</h1>
                 <p>Be the first to see travel deals and hot news.</p>
@@ -171,7 +172,7 @@
             </div>
         </section>
 
-        <section class="main_ul">
+        <section class="main_ul" data-aos="flip-up">
             <div class="ul_inside">
                 <div class="ul_left">
                     <ul>
@@ -234,7 +235,9 @@
     
     <footer>
         <section class="footer_main1">
-            <div>
+            <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <a href="#"><img src="img/logo.footer.jpg"></a>
             </div>
         </section>
@@ -313,5 +316,10 @@
             </div>
         </section>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
